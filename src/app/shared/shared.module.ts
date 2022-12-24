@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderForTitleComponent } from './header-for-title/header-for-title.component';
+import { HeaderTitleComponent } from './header-title/header-title.component';
 
 
 
 @NgModule({
   declarations: [
-    HeaderForTitleComponent
+    HeaderTitleComponent
   ],
   imports: [
     CommonModule
   ],
-  exports: [HeaderForTitleComponent]
+  exports: [HeaderTitleComponent]
 })
 export class SharedModule { }

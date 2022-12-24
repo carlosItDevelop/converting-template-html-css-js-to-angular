@@ -1,10 +1,10 @@
-# Convert Template Dynamic para o Angular
+# ConvertingTemplateJSToAngula
 
-Este projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli) versão 15.0.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
 
-Execute `npm start` no servidor dev. A aplicação será iniciada no host `http://localhost:4211/`, e será recarregada automaticamente após qualquer alteração bem sucedida.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -24,4 +24,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-Para maiores informações sobre os comando do Angular/CLI execute `ng help` ou confira na referência oficial na página [Angular CLI Overview and Command Reference](https://angular.io/cli).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

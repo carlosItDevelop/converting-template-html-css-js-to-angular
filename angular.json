@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ConvertDynamicToAngular15": {
+    "ConvertingTemplateJSToAngula": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/convert-dynamic-to-angular15",
+            "outputPath": "dist/converting-template-jsto-angula",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -33,7 +33,7 @@
             ],
             "scripts": [
               "src/assets/plugins/core/pace/pace.min.js",
-              "src/assets/js/libs/jquery-2.1.1.js",
+              "src/assets/js/libs/jquery-2.1.1.min.js",
               "src/assets/js/libs/jquery-ui-1.10.4.min.js",
               "src/assets/js/bootstrap/bootstrap.min.js",
               "src/assets/js/libs/modernizr.custom.js",
@@ -81,10 +81,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ConvertDynamicToAngular15:build:production"
+              "browserTarget": "ConvertingTemplateJSToAngula:build:production"
             },
             "development": {
-              "browserTarget": "ConvertDynamicToAngular15:build:development"
+              "browserTarget": "ConvertingTemplateJSToAngula:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -92,7 +92,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ConvertDynamicToAngular15:build"
+            "browserTarget": "ConvertingTemplateJSToAngula:build"
           }
         },
         "test": {
@@ -117,6 +117,6 @@
     }
   },
   "cli": {
-    "analytics": "ca648f60-a012-42e2-8e6a-828bada81216"
+    "analytics": false
   }
 }

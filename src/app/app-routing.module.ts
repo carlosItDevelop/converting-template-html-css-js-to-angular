@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import { PacientesModule } from './module/pacientes/pacientes.module';
 
 const routes: Routes = [
-    { path: '', loadChildren: () => import('./modules/dasboard/dasboard.module').then(m=>m.DasboardModule) },
-    { path: 'listapacientes', loadChildren: () => import('./modules/pacientes/pacientes.module').then(m=>m.PacientesModule)},
-    { path: 'scheduler', loadChildren: () => import('./modules/syncfusion/scheduler/scheduler.module').then(m=>m.SchedulerModule)},
-
+  {path: '', redirectTo: 'dashboard', pathMatch: 'full'},
+  {path: 'dashboard', loadChildren: ()=> import('./module/dashboard/dashboard.module').then(m=>m.DashboardModule)},
+  {path: 'listapacientes', loadChildren: ()=> import('./module/pacientes/pacientes.module').then(m=>m.PacientesModule)}
 ];
 
 @NgModule({
